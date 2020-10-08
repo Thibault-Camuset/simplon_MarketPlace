@@ -19,3 +19,33 @@
 
 
 ---
+
+### Les consignes principales à respecter étant:
+
+- Un prototype de catalogue de produits, avec accès aux fiches de produits détaillées.
+- Une base de données qui contiendra les produits, leurs catégories, les marques et les vendeurs (fournir le MCD, MPD, et le dump de la BDD).
+
+Spécificitées de la BDD:
+
+- Un produit peux avoir plusieurs catégories.
+- Un produit n'a qu'une seule marque.
+- Un produit doit être caractérisé par : son code ean13, son nom, une description courte, une description longue, un prix de vente HT, un prix d'envoi HT, un stock.
+- Un produit peut être vendu par plusieurs vendeurs. Le prix HT, les frais de ports HT et leur stock leur est propre.
+
+### L'équipe devra respecter, et avancer selon plusieurs étapes:
+
+- Partie 1 : Organisation (partie gestion de projet, ici, sous Trello)
+
+- Partie 2 : Partie BDD (avant tout conception MCD, MPD, puis créer la base de données)
+
+- Partie 3 : Prototype du site, (maquette + wireframe)
+
+- Partie 4 : Back-End (interface qui lie le site à la base de données, possibilité d'ajouter, modifier, supprimer et visualiser pour chaque élements de la table, donc produits, marques, catégories et vendeurs. A faire en mode défensif, avec les vérifications).
+
+- Partie 5 : Front-End (Lister les produits sur le site, afficher les détails quand l'utilisateur clique dessus).
+
+*(Facultatif/Bonus):*
+- Affichage d'un visuel pour chaque produit
+- Mise en place d'une pagination sur la page des produits
+
+---
