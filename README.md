@@ -32,6 +32,10 @@ Spécificitées de la BDD:
 - Un produit doit être caractérisé par : son code ean13, son nom, une description courte, une description longue, un prix de vente HT, un prix d'envoi HT, un stock.
 - Un produit peut être vendu par plusieurs vendeurs. Le prix HT, les frais de ports HT et leur stock leur est propre.
 
+*(Facultatif/Bonus):*
+- Affichage d'un visuel pour chaque produit
+- Mise en place d'une pagination sur la page des produits
+
 ### L'équipe devra respecter, et avancer selon plusieurs étapes:
 
 - Partie 1 : Organisation (partie gestion de projet, ici, sous Trello)
@@ -43,9 +47,5 @@ Spécificitées de la BDD:
 - Partie 4 : Back-End (interface qui lie le site à la base de données, possibilité d'ajouter, modifier, supprimer et visualiser pour chaque élements de la table, donc produits, marques, catégories et vendeurs. A faire en mode défensif, avec les vérifications).
 
 - Partie 5 : Front-End (Lister les produits sur le site, afficher les détails quand l'utilisateur clique dessus).
-
-*(Facultatif/Bonus):*
-- Affichage d'un visuel pour chaque produit
-- Mise en place d'une pagination sur la page des produits
 
 ---
