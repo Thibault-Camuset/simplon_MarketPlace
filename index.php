@@ -11,7 +11,13 @@
     <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-    
+
+    <div id="page-container">
+        <div id="products-page"></div>
+        <div id="product-details-page" class="hidden"></div>
+    </div>
+
+
     <script type="Text/Javascript" src="JS/script.js"></script>
 </body>
 </html>
