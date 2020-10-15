@@ -25,7 +25,21 @@ $frontbutton.click(function() {
     $backofficediv.addClass("hidden");
 });
 
+
+
 $backproducts.click(function() {
-    $backofficediv.removeClass("hidden");
-    $backproductsdisplay.addClass("hidden");
+    $backofficediv.addClass("hidden");
+    $backproductsdisplay.removeClass("hidden");
+});
+$backvendors.click(function() {
+    $backofficediv.addClass("hidden");
+    $backvendorsdisplay.removeClass("hidden");
+});
+$backcategories.click(function() {
+    $backofficediv.addClass("hidden");
+    $backcategoriesdisplay.removeClass("hidden");
+});
+$backbrands.click(function() {
+    $backofficediv.addClass("hidden");
+    $backbrandsdisplay.removeClass("hidden");
 });
