@@ -3,6 +3,14 @@
   padding: 0;
 }
 
+#formulaire {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  top: 2vh;
+  left: 2vh;
+}
+
 #page-container,
 #back-office-container {
   height: 100vh;
@@ -13,14 +21,167 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  position: relative;
+  border: 1px solid black;
+  height: 85vh;
+  top: 12vh;
+  margin: 0vh 5vh 5vh 5vh;
+  overflow: scroll;
 }
 
 #switch-back-office {
   position: fixed;
   top: 1vw;
-  right: 1vw;
+  right: 2vw;
   height: 3vw;
   width: 3vw;
+  background-color: red;
+  color: white;
+  border: 2px solid white;
+  font-weight: bold;
+  font-size: 4vmin;
+}
+
+#switch-front {
+  position: fixed;
+  top: 1vw;
+  right: 2vw;
+  height: 3vw;
+  width: 3vw;
+  background-color: green;
+  color: white;
+  border: 2px solid white;
+  font-weight: bold;
+  font-size: 4vmin;
+}
+
+#switch-back-office:hover {
+  background-color: white;
+  color: red;
+  border: 2px solid red;
+}
+
+#switch-front:hover {
+  background-color: white;
+  color: green;
+  border: 2px solid green;
+}
+
+#search-input {
+  position: fixed;
+  top: 2vh;
+  left: 2vw;
+  height: 3vw;
+  width: 20vw;
+}
+
+#search-button {
+  position: fixed;
+  top: 2vh;
+  left: 23vw;
+  height: 3vw;
+  width: 5vw;
+}
+
+#select-categories {
+  position: fixed;
+  top: 2vh;
+  left: 68vw;
+  height: 3vw;
+  width: 20vw;
+}
+
+#search-input:focus::placeholder {
+  color: transparent;
+}
+
+.popo {
+  height: 55vh;
+  width: 55vh;
+  border: 1px solid black;
+  margin: 8vh;
+}
+
+#back-office-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#back-office-products,
+#back-office-vendors,
+#back-office-categories,
+#back-office-brands {
+  border: 1px solid black;
+  height: 35vh;
+  width: 35vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#back-office-products {
+  position: fixed;
+  top: 10vh;
+  left: 25vw;
+  background-color: red;
+  color: white;
+  border: 2px solid white;
+  font-size: 5vmin;
+  font-weight: bold;
+}
+
+#back-office-products:hover {
+  background-color: white;
+  color: red;
+  border: 2px solid red;
+}
+
+#back-office-vendors {
+  position: fixed;
+  top: 10vh;
+  right: 25vw;
+  background-color: green;
+  color: white;
+  font-size: 5vmin;
+  font-weight: bold;
+}
+
+#back-office-vendors:hover {
+  background-color: white;
+  color: green;
+  border: 2px solid green;
+}
+
+#back-office-categories {
+  position: fixed;
+  bottom: 10vh;
+  left: 25vw;
+  background-color: orange;
+  color: white;
+  font-size: 5vmin;
+  font-weight: bold;
+}
+
+#back-office-categories:hover {
+  background-color: white;
+  color: orange;
+  border: 2px solid orange;
+}
+
+#back-office-brands {
+  position: fixed;
+  bottom: 10vh;
+  right: 25vw;
+  background-color: blue;
+  color: white;
+  font-size: 5vmin;
+  font-weight: bold;
+}
+
+#back-office-brands:hover {
+  background-color: white;
+  color: blue;
+  border: 2px solid blue;
 }
 
 .hidden {
