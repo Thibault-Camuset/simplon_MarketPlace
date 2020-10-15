@@ -184,6 +184,25 @@
   border: 2px solid blue;
 }
 
+.switch-to-back {
+  position: fixed;
+  top: 1vw;
+  right: 2vw;
+  height: 3vw;
+  width: 3vw;
+  background-color: red;
+  color: white;
+  border: 2px solid white;
+  font-weight: bold;
+  font-size: 4vmin;
+}
+
+.switch-to-back:hover {
+  background-color: white;
+  color: red;
+  border: 2px solid red;
+}
+
 .hidden {
   display: none !important;
 }

@@ -58,10 +58,18 @@
     <div id="back-office-brands">Brands</div>
     </div>
 
-    <div id="back-office-products-display" class="hidden"></div>
-    <div id="back-office-vendors-display" class="hidden"></div>
-    <div id="back-office-categories-display" class="hidden"></div>
-    <div id="back-office-brands-display" class="hidden"></div>
+    <div id="back-office-products-display" class="hidden">
+    <input type="button" class="switch-to-back" value="B"/>
+    </div>
+    <div id="back-office-vendors-display" class="hidden">
+    <input type="button" class="switch-to-back" value="B"/>
+    </div>
+    <div id="back-office-categories-display" class="hidden">
+    <input type="button" class="switch-to-back" value="B"/>
+    </div>
+    <div id="back-office-brands-display" class="hidden">
+    <input type="button" class="switch-to-back" value="B"/>
+    </div>
 
 
     <script type="Text/Javascript" src="JS/script.js"></script>
