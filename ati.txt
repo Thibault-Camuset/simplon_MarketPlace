@@ -1,0 +1,99 @@
+consoles :
+
+	- gamecube
+	- La (ou le3) Nintendo GameCube (ニンテンドーゲームキューブ, Nintendō Gēmukyūbu?, Nintendo Gamecube)4 est une console de jeux vidéo de salon du fabricant japonais Nintendo, sortie en 2001 (2002 en Europe), développée en association avec IBM, NEC et ATI. Elle fut en concurrence avec la PlayStation 2 de Sony, la Xbox de Microsoft et la Dreamcast de Sega, qui forment ensemble la sixième génération de consoles de jeux vidéo. 
+	- a Game Cube est une console de génération 128 bits intégrant un lecteur de DVD-Rom dun format miniature (8 cm au lieu de 12 cm). Si lon compare la capacité de stockage de ces disques, on atteint la quantité exceptionnelle de 1.5 Go par unité, soit environ trois plus quun CD-Rom de PlayStation ou bien encore 40 à 50 fois le contenu dune cartouche Nintendo 64. Pour gérer et animer toutes ces données, un processeur spécifique a été mis au point, le Gekko. Cadencé à 405 MHz, il est combiné à un processeur graphique dédié, le Flipper qui est lui-même capable de gérer un maximum de 12 millions de polygones à la seconde avec effets. A propos deffets, les joueurs PC retrouveront les effets de rendu de leurs puissants ordinateurs (Alpha Blending, Bump Mapping, Pixel Shading, Anti-aliasing) pour une qualité dimage inégalée.
+Incontestablement, Nintendo a misé sur une haute technologie. Avec ses quatre ports pour manettes de jeu, la NGC reste fidèle à la politique multijoueur instaurée par Nintendo depuis la N64. Livrée avec une manette ergonomique offrant une prise en main exceptionnelle, la console profite également de toute une gamme daccessoires sans cesse réactualisée par les différents accessoiristes du marché. Par ailleurs, la GameBoy Advance pourra être connectée à la GameCube et faire fonction dans un premier temps de manette dappoint avant déchanger dautres types de données dans un futur que lon espère proche. 
+	- code EAM : 4020628738655
+	- Marque : NINTENDO
+
+
+
+
+
+
+
+
+	- wii
+	- La Wii (ウィー, Wī?) est une console de jeux de salon du fabricant japonais Nintendo, sortie en 2006. Console de la septième génération, tout comme la Xbox 360 et la PlayStation 3 avec lesquelles elle est en rivalité, la Wii est la console de salon la plus vendue de sa génération avec 101,63 millions d'exemplaires écoulés en 2016. Elle a comme particularité d'utiliser un accéléromètre capable de détecter la position, l'orientation et les mouvements dans l'espace de la manette.
+La Wii a marqué un tournant dans l'histoire du jeu vidéo en ouvrant ce loisir à un public plus large, ciblant ainsi l'ensemble de la société, ce qui explique en partie son succès. 
+	- La Wii (prononcez 'Oui') est la dernière console de salon Nintendo en date. Elle a ouvert une nouvelle ère dans le divertissement. Cela fait des années que la popularité, mais aussi la complexité des jeux vidéo grandit. Avec la Wii, Nintendo transforme le jeu en maximisant l'amusement et en minimisant les tracas.
+Wii avec Wiimote
+Console Wii avec la télécommande Wii Plus.
+Un look épuré
+Le design compact de la console Wii lui permet de s’intégrer naturellement à votre équipement audiovisuel. Elle peut être placée à la verticale ou à l’horizontale. La Wii intègre 512 Mo de mémoire flash, deux ports USB 2.0 et un module WiFi. Un port carte mémoire SD permet d’augmenter la mémoire interne de la machine. La console consomme peu grâce à un processeur dernier cri qui permet de limiter son encombrement et de la laisser connectée au réseau via le mode WiiConnect24.
+Des contrôle révolutionnaires
+La télécommande Wii Plus sans fil sensible au mouvement, au fonctionnement intuitif, permet de jouer plus naturellement. Cette manette ergonomique reconnaît les mouvements que vous effectuez dans la vie de tous les jours. Vous tapez sur un tambour, vous essayez de frapper une balle avec une raquette de tennis ou une batte de base-ball… Pourquoi appuyer sur un bouton pour reproduire ces mouvements ? Avec la télécommande Wii, il vous suffit de bouger normalement pour jouer.
+Nintendo a voulu faire de la télécommande Wii la première manette de jeu universelle. Dans un jeu de combat, c’est une épée, dans un jeu de course c’est un volant… C’est à la fois votre pinceau, votre club de golf et votre avion, mais c’est surtout la clé qui vous donne accès à un monde de divertissement auquel vous n’aviez jamais osé rêver.
+Encore plus immersif avec le Nunchuk
+Connectez le Nunchuk à la télécommande Wii Plus et tenez-vous prêt. Vous venez de vous immerger dans un nouveau monde où le jeu prend enfin tout son sens. Vous obtenez ainsi deux appareils à la précision remarquable. Ils deviennent votre épée et votre bouclier pour défendre Hyrule dans The Legend of Zelda: Twilight Princess. Ce sont les armes qui vous permettent de vous frayer un chemin dans les corridors exigus de Metroid Prime 3: Corruption et le monde souterrain hostile de Red Steel. 
+	- code EAM : 4021628738655
+	- Marque : NINTENDO
+
+
+ 
+
+	- Nintendo Switch
+	- La Nintendo Switch (ニンテンドースイッチ, Nintendō Suitchi?) est une console de jeux vidéo produite par Nintendo, succédant à la Wii U. Il s'agit de la première console hybride, c'est-à-dire multi modes, mise en vente de l'histoire7, pouvant aussi bien faire office de console de salon que de console portable. Annoncée le 17 mars 2015 au cours d'une conférence de presse, présentée officiellement le 20 octobre 2016 et montrée plus en détail le 17 janvier 2017 lors d'une présentation en direct, elle est sortie mondialement le 3 mars 2017. 
+	- Nintendo Switch avec paire de Joy-Con Rouge Néon et Bleu Néon
+Obtenez la console de jeu qui vous permet de jouer aux jeux que vous voulez, n'importe où, comme vous le voulez!
+À la maison, la Nintendo Switch est placée sur la station d'accueil Nintendo Switch qui relie la console au téléviseur et vous permet de jouer avec votre famille et vos amis dans le confort de votre salon.
+Retirez simplement la Nintendo Switch de la station d'accueil pour faire passer la console en mode portable; vous pourrez alors profiter de la même fantastique expérience de jeu qu'à la maison lors de vos déplacements. La portabilité de la Nintendo Switch est améliorée grâce à son écran lumineux à haute définition. Elle vous permet de profiter d'une expérience de console de jeu complète au parc, en avion, en voiture ou chez un ami.
+	- code EAM : 4021628738355
+	- Marque : NINTENDO
+
+
+
+	- Wii U
+	- La Wii U (ウィー ユー, Wī Yū?, prononcé en anglais : [wiː juː]) est une console de jeu vidéo commercialisée par Nintendo, succédant à la Wii. Elle est sortie le 18 novembre 2012 en Amérique du Nord, le 30 novembre 2012 en Europe et le 8 décembre 2012 au Japon. Première console de jeu vidéo de huitième génération à sortir, elle est en concurrence avec la PlayStation 4 et la Xbox One.
+La console est annoncée le 7 juin 2011, durant l'E3 2011. La Wii U est la première console de salon à proposer une manette avec un écran tactile intégré, le Wii U GamePad. Les deux principales nouveautés de la console sont apportées par celui-ci. D'une part, le Wii U GamePad permet de continuer une partie, grâce à son écran intégré, même lorsque la télévision n'est pas disponible, mais cette fonctionnalité n'est pas présente avec tous les jeux. D'autre part en complément de manettes Wii, le contrôleur offre en multijoueur une expérience de jeu dite d'« informations asymétriques », c'est-à-dire que les joueurs ne disposent pas nécessairement des mêmes informations sur le GamePad par rapport à une manette et un écran de télévision traditionnels. Enfin, il s'agit de la première console de Nintendo à pouvoir générer des graphismes en haute définition. Considérée comme une déception commerciale, la production de la console s'arrête en 2017, soit seulement 4 ans après sa sortie, pour laisser place à la Nintendo Switch.
+	- code EAM : 4021608738355
+	- Marque : NINTENDO
+
+
+
+	
+
+
+
+	- Nintendo DS Lite
+	- La Nintendo DS (ニンテンドーDS, Nintendō Dī Esu?, DS pour Dual Screen, Double Screen au Japon), est une console portable créée par Nintendo, sortie fin 2004 au Japon et en Amérique du Nord et en 2005 en Europe.
+Elle est équipée de plusieurs fonctions auparavant rares, voire inédites dans le domaine du jeu vidéo portable, telles que deux écrans rétro-éclairés simultanément dont un écran tactile, un microphone, deux ports cartouche (un pour les jeux Nintendo DS, un autre pour les cartouches de jeu Game Boy Advance et les accessoires), deux haut-parleurs compatibles surround (virtuel), ou encore le Wi-Fi intégré, d'une portée de 10 à 30 mètres en LAN, permettant de connecter seize consoles entre elles, et de se connecter au Nintendo Wi-Fi Connection pour jouer en ligne. 
+
+	- Elle offre la meilleure qualité d’écran, luminosité et définition, de toutes les consoles actuelles ! Elle est plus compacte et plus légère en comparaison avec l’originale : - seulement les 2/3 en taille - allégée de 20% Ecrans rétro éclairés avec réglage : - Ses deux écrans rétro éclairés peuvent être réglés selon quatre niveaux afin de s’adapter à n’importe quelle luminosité et de réduire la consommation d’énergie. Le micro se trouve au centre de l’appareil : - Ses indicateurs de batterie sont clairement visibles, que la console soit ouverte ou fermée. Le stylet est plus confortable en main et plus accessible : - 1 cm de plus en taille et 1 mm de plus en circonférence - Accessible dans une fente présente sur le coté de la console. Les boutons « Start » et « Select » : - ont été repositionnés pour faciliter leur accès. Accès cartouche GBA protégé : - Un cache amovible Game Boy Advance protège l’accès cartouche pour plus de protection 
+
+	- code EAM : 4021608738351
+	- Marque : NINTENDO
+
+
+
+	- The Legend Of Zelda : Twilight Princess
+	- The Legend of Zelda: Twilight Princess (ゼルダの伝説 トワイライトプリンセス, Zeruda no densetsu: Towairaito purinsesu?, litt. « La légende de Zelda : La princesse du crépuscule ») est un jeu vidéo d'action-aventure développé par Nintendo EAD et édité par Nintendo, sorti sur GameCube et Wii en 2006. Il s'agit du treizième opus de la série The Legend of Zelda.
+Initialement annoncée pour 2005 sur GameCube au salon E3 de 2004, sa sortie est repoussée à plusieurs reprises pour peaufiner le jeu, permettant également de le sortir pour le lancement de la Wii fin 2006. 
+	- Le joueur incarne Link, un jeune fermier de 17 ans vivant dans un village appelé Toal avec ses amis. L'histoire commence réellement quand ceux-ci se font capturer par des monstres montés sur des sangliers. Link part à leur recherche en direction de la forêt de Firone et se retrouve face à un mur noir inquiétant. De l'autre côté, une partie du royaume d'Hyrule est corrompue par le Crépuscule. Un monstre emporte Link vers ce monde et essaie de l'éliminer. Le pouvoir de la Triforce du courage, détenu par Link, le transforme en loup pour se protéger. Il est fait prisonnier dans les geôles du château d'Hyrule où il rencontre Midona, une créature du Crépuscule qui le libère et le guide vers la princesse Zelda. Celle-ci raconte alors à Link comment Xanto, le roi des Ombres, a pris le contrôle du royaume d'Hyrule.
+Pour rendre leur lumière aux différentes régions d'Hyrule et retrouver sa forme humaine, Link doit retrouver des perles de lumière qui y sont dispersées. En parallèle, Midona l'entraîne en quête des cristaux d'Ombre, censés détenir le pouvoir de ses ancêtres et permettre de vaincre Xanto. Le royaume d'Hyrule libéré du Crépuscule et les cristaux d'Ombre récupérés, Link tombe nez-à-nez avec Xanto qui récupère les cristaux d'Ombre, maudit Link pour qu'il soit à jamais un loup et expose Midona à la lumière de l'esprit de Lanelle, ce qui l'affaiblit gravement. Link emmène Midona auprès de la princesse Zelda, qui offre son énergie vitale en sacrifice pour la sauver. Zelda révèle à Link l'existence d'une épée légendaire, cachée au sanctuaire de la forêt de Firone, capable de déchirer sa malédiction. Link retrouve sa forme humaine et Midona récupère le fragment de magie qui l'empoisonnait.
+Commence alors la deuxième phase de l'aventure. Grâce au fragment de magie, le joueur peut alterner selon les besoins du jeu entre sa forme humaine et sa forme animale. Midona entraîne Link dans le désert Gerudo à la recherche du miroir des Ombres, permettant de se rendre au royaume du Crépuscule. Sur place, les anciens sages veillant sur le miroir nous apprennent que Xanto n'est que le sous-fifre du Seigneur du Mal, Ganondorf, et que le miroir des Ombres a été brisé pour protéger le royaume d'Hyrule de ses agissements. Link doit retrouver les fragments du miroir éparpillés, se trouvant selon les sages « dans les hauteurs enneigées, dans une antique forêt et quelque part dans les cieux ».
+Link retourne ensuite reconstituer le miroir et les sages dévoilent que Midona n'est autre que la princesse du Crépuscule, maudite par Xanto. Link ouvre ensuite le passage vers le monde des Ombres, traverse le Palais du Crépuscule, bat Xanto et récupère les cristaux d'ombres.
+Link se prépare ensuite à affronter Ganondorf, qui a pris le contrôle du château d'Hyrule et de la princesse Zelda. Le combat final prend place au château. Après avoir triomphé, Link aperçoit la silhouette d'une jeune fille titubante au loin, qui n'est autre que Midona ayant reprise son apparence « humaine ». La scène finale montre Link, Zelda et Midona face au Miroir des Ombres, s'échangeant quelques mots d'adieux à la suite desquels Midona repart dans son royaume et détruit définitivement le miroir des Ombres, afin de couper tout lien entre le monde de la lumière et celui des ombres. 
+
+	- code EAM : 4021608738359
+	- Marque : NINTENDO
+
+
+
+
+
+
+	- The Legend Of Zelda : The Wind Waker
+	- The Legend of Zelda: The Wind Waker (ou simplement The Wind Waker) est un jeu d'action-aventure développé par la division Nintendo EAD et publié par Nintendo sur GameCube le 13 décembre 2002 au Japon, puis en mars 2003 en Amérique du Nord et en mai 2003 en Europe. C'est le dixième jeu de la franchise The Legend of Zelda.
+Le joueur contrôle le protagoniste Link, alors que le jeu se déroule sur un ensemble d'îles situé dans une vaste mer, lieu inédit pour la franchise. Le personnage joueur tente de sauver sa sœur du sorcier Ganon, et se retrouve impliqué dans une lutte pour sauvegarder la Triforce. Aidé par des alliés, dont la capitaine des pirates Tetra, incarnation de la princesse Zelda, et un bateau parlant appelé Lion Rouge, Link navigue sur les étendues d'eau et explore des îles où il y parcourt divers donjons labyrinthiques pour obtenir le pouvoir nécessaire pour vaincre Ganon. Le vent, qui permet la navigation, joue un rôle de premier plan dans le gameplay et peut être contrôlé grâce à la Baguette du vent.
+	- Sur l'Île de l'Aurore, Link, un descendant du « Héros du temps », célèbre le jour de ses douze ans comme il est de coutume, en s'habillant d'une tunique et d'un bonnet en l'honneur du Héros du temps. Cependant au cours des festivités, un oiseau immense survient dans le ciel, le roi Cuirasse, qui tient dans ses serres une jeune fille alors qu'il est poursuivi par un bateau de pirates. L'oiseau est obligé de lâcher sa proie, et fait tomber dans la forêt de l'île celle qui est en réalité la capitaine des pirates, Tetra. Link intervient et sauve Tetra, mais l'oiseau emporte la sœur du jeune garçon nommée Arielle, qu'il prend pour la capitaine. Tetra accepte d'aider Link à retrouver sa sœur. Link s'équipe d'une épée et d'un bouclier, avant qu'ils embarquent ensemble et se dirigent vers la Forteresse maudite. Là, il perd son armement, puis retrouve Arielle et d'autres filles kidnappées. Link y rencontre le roi Cuirasse, qui l'emmène face à un mystérieux personnage. Ce dernier le précipite vers le vaste océan, qui se réveille quelques heures plus tard sur Mercantîle, à bord d'un bateau appelé « Lion Rouge » doté de la capacité de parler. Celui-ci lui révèle que le mystérieux personnage qui commande l'oiseau est Ganondorf. Ce dernier enlève des jeunes filles, car il est à la recherche de la princesse Zelda, qui possède la Triforce de la sagesse qu'il convoite17,8,9,30.
+Pour le vaincre, Link doit obtenir le pouvoir du Héros du temps, grâce aux trois perles des déesses. Lion Rouge lui donne la Baguette du vent, qui permet de contrôler l'élément de l'air. Il trouve la perle de Din sur l'Île du Dragon, auprès de Valoo, l'esprit du ciel ; il obtient la perle de Farore sur l'Île aux Forêts où se situe l'arbre Mojo, l'esprit de la terre, en aidant les Korogus ; il prend possession de la perle de Nayru en passant par l'Île du Poisson, dévastée, puis sur l'île Mercantîle et finalement sur l'Île de l'Aurore pour l'obtenir auprès de Jabu. Le roi des bateaux Lion Rouge emmène ensuite Link à la Tour des dieux, où il doit surmonter des épreuves avant de descendre sous l'océan jusqu'à un château englouti, figé dans le temps. Là, Link trouve l'arme du Héros du temps, Excalibur l'Épée de légende17,8,9,31. 
+
+	- code EAM : 4021608708359
+	- Marque : NINTENDO
+
+
+
+
+
