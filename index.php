@@ -24,7 +24,7 @@
                 <option>Blabla</option>
                 <option>Blabla</option>
             </select>
-            <input type="button" id="switch-back-office" value="B"/>
+            <input type="button" id="switch-back-office" title="Back-Office" value="B"/>
         </div>
 
         <div id="products-page">
@@ -51,7 +51,7 @@
     </div>
 
     <div id="back-office-container" class="hidden">
-    <input type="button" id="switch-front" value="F"/>
+    <input type="button" id="switch-front" title="Front-Office" value="F"/>
     <div id="back-office-products">Products</div>
     <div id="back-office-vendors">Vendors</div>
     <div id="back-office-categories">Categories</div>
@@ -59,16 +59,16 @@
     </div>
 
     <div id="back-office-products-display" class="hidden">
-    <input type="button" class="switch-to-back" value="B"/>
+    <input type="button" class="switch-to-back" title="Back-Office" value="B"/>
     </div>
     <div id="back-office-vendors-display" class="hidden">
-    <input type="button" class="switch-to-back" value="B"/>
+    <input type="button" class="switch-to-back" title="Back-Office" value="B"/>
     </div>
     <div id="back-office-categories-display" class="hidden">
-    <input type="button" class="switch-to-back" value="B"/>
+    <input type="button" class="switch-to-back" title="Back-Office" value="B"/>
     </div>
     <div id="back-office-brands-display" class="hidden">
-    <input type="button" class="switch-to-back" value="B"/>
+    <input type="button" class="switch-to-back" title="Back-Office" value="B"/>
     </div>
 
 
