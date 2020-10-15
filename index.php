@@ -13,8 +13,12 @@
 <body>
 
     <div id="page-container">
+        <input type="button" id="switch-back-office"/>
         <div id="products-page"></div>
         <div id="product-details-page" class="hidden"></div>
+    </div>
+
+    <div id="back-office-container" class="hidden">
     </div>
 
 
