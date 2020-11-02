@@ -8,8 +8,7 @@ DROP TABLE IF EXISTS brands;
 
 CREATE TABLE brands
 (
-	brandCode INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
-    brandName TINYTEXT
+	brandName TEXT PRIMARY KEY NOT NULL AUTO_INCREMENT,
 );
 
 DROP TABLE IF EXISTS categories;
@@ -37,8 +36,8 @@ CREATE TABLE products
     productName TINYTEXT,
     shortDescription TINYTEXT,
     longDescription TEXT,
-    brandCode INT,
-    FOREIGN KEY(brandCode) REFERENCES brands(brandCode)
+    brandCode TEXT,
+    FOREIGN KEY(brandName) REFERENCES brands(brandName)
 );
 
 DROP TABLE IF EXISTS products_categories;
@@ -71,7 +70,7 @@ CREATE TABLE products_vendors
 
 
 
-INSERT INTO brands (brandName) VALUES ("Nintendo"),("HAL Labs"),("Square-Enix"),("Monolith Soft"),("Namco"),("Retro Studio"),("Sonic Team"),("Clover Studio"),("Intelligent Systems"),("Dreamworks Games"),("Capcom"),("Rare Ltd."),("EA Canada"),("Ubisoft Shanghai"),("Bits Studios"),("Genius Sonority Inc."),("Amusement Vision"),("Pyramid"),("Ubisoft Paris");
+INSERT INTO brands (brandName) VALUES ("Nintendo"),("Microsoft"),("Sony"),("Datel");
 
 INSERT INTO products (productCode, productName, shortDescription, longDescription, brandCode) VALUES 
 
@@ -115,7 +114,7 @@ Connectez le Nunchuk à la télécommande Wii Plus et tenez-vous prêt. Vous ven
 Obtenez la console de jeu qui vous permet de jouer aux jeux que vous voulez, n'importe où, comme vous le voulez!
 À la maison, la Nintendo Switch est placée sur la station d'accueil Nintendo Switch qui relie la console au téléviseur et vous permet de jouer avec votre famille et vos amis dans le confort de votre salon.
 Retirez simplement la Nintendo Switch de la station d'accueil pour faire passer la console en mode portable; vous pourrez alors profiter de la même fantastique expérience de jeu qu'à la maison lors de vos déplacements. La portabilité de la Nintendo Switch est améliorée grâce à son écran lumineux à haute définition. Elle vous permet de profiter d'une expérience de console de jeu complète au parc, en avion, en voiture ou chez un ami.
-","Nintedo"),
+","Nintendo"),
 
 
 ("4021608738355","Wii U","La Wii U (ウィー ユー, Wī Yū?, prononcé en anglais : [wiː juː]) est une console de jeu vidéo commercialisée par Nintendo, succédant à la Wii. Elle est sortie le 18 novembre 2012 en Amérique du Nord, le 30 novembre 2012 en Europe et le 8 décembre 2012 au Japon. Première console de jeu vidéo de huitième génération à sortir, elle est en concurrence avec la PlayStation 4 et la Xbox One.","La console est annoncée le 7 juin 2011, durant l'E3 2011. La Wii U est la première console de salon à proposer une manette avec un écran tactile intégré, le Wii U GamePad. Les deux principales nouveautés de la console sont apportées par celui-ci. D'une part, le Wii U GamePad permet de continuer une partie, grâce à son écran intégré, même lorsque la télévision n'est pas disponible, mais cette fonctionnalité n'est pas présente avec tous les jeux. D'autre part en complément de manettes Wii, le contrôleur offre en multijoueur une expérience de jeu dite d'« informations asymétriques », c'est-à-dire que les joueurs ne disposent pas nécessairement des mêmes informations sur le GamePad par rapport à une manette et un écran de télévision traditionnels. Enfin, il s'agit de la première console de Nintendo à pouvoir générer des graphismes en haute définition. Considérée comme une déception commerciale, la production de la console s'arrête en 2017, soit seulement 4 ans après sa sortie, pour laisser place à la Nintendo Switch.","Nintendo"),
