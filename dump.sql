@@ -71,7 +71,7 @@ CREATE TABLE products_vendors
 
 
 
-INSERT INTO brands (brandName) VALUES ("1","Nintendo"),("2","Microsoft"),("3","Sony"),("4","Datel");
+INSERT INTO brands (brandName) VALUES ("Nintendo"),("Microsoft"),("Sony"),("Datel");
 
 INSERT INTO products (productCode, productName, shortDescription, longDescription, brandCode) VALUES 
 ("4012927029534","Suikoden V","Dernier opus de la série légendaire, préquel au plus légendaire encore Suikoden II!","Tragédie et destin sont intimement liés autour de la légendaire Rune Solaire!</br>Sur les terres de Faléna, dans un pays prospère placé sous le joug matriarcat et sous la bienveillante puissance de la Rune Solaire, des troubles civils commencèrent à éclater, forçant la reine à se servir de la Rune Solaire afin de maîtriser le soulèvement... Mais à quel prix? Plongez en tant que prince dans une quête immense et éclaircissez les mystères entourant la Rune Solaire, les troubles civils, et les sombres intentions d'une puissance inconnue, dans la grande saga de Suikoden!","3"),
