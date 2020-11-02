@@ -13,7 +13,7 @@ $backvendorsdisplay = $('#back-office-vendors-display');
 $backcatagoriesdisplay = $('#back-office-categories-display');
 $backbrandsdisplay = $('#back-office-brands-display');
 
-
+$buttonstoback = $('.switch-to-back');
 
 $backofficebutton.click(function() {
     $pagecontainer.addClass("hidden");
@@ -37,10 +37,22 @@ $backvendors.click(function() {
 });
 $backcategories.click(function() {
     $backofficediv.addClass("hidden");
-    $backcategoriesdisplay.removeClass("hidden");
+    $backcatagoriesdisplay.removeClass("hidden");
 });
 $backbrands.click(function() {
     $backofficediv.addClass("hidden");
     $backbrandsdisplay.removeClass("hidden");
 });
 
+<<<<<<< HEAD
+=======
+$buttonstoback.each(function() {
+    let $actualbutton = $(this);
+    console.log($actualbutton);
+    $actualbutton.click(function() {
+        let $actualdiv = $actualbutton.closest('div');
+        $actualdiv.addClass("hidden");
+        $backofficediv.removeClass("hidden");
+    })
+})
+>>>>>>> 30deb06629678f63a4a0f4cc4a20bf24cafa05e1
