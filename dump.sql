@@ -144,14 +144,23 @@ Pour le vaincre, Link doit obtenir le pouvoir du Héros du temps, grâce aux tro
 ("0711719706403","Console Playstation 2 Slim","","","Sony"),
 ("7194801354691","Action Replay Max","","","Datel"),
 
-<<<<<<< HEAD
+
+("4020628738655","PS4", "La PlayStation 4 (abrégée officiellement PS4) est une console de jeux vidéo","La PlayStation 4 (abrégée officiellement PS4) est une console de jeux vidéo de salon de huitième génération développée par Sony Computer Entertainment. ... Elle est la console tous types confondus la plus vendue de sa génération.","SONY");
+("175945565095","PS4 PRO","la PlayStation 4 Pro : une PS4 beaucoup plus puissante","la PlayStation 4 Pro : une PS4 beaucoup plus puissante taillée pour l'Ultra HD et la réalité virtuelle.","SONY");
+("7966800977418","PS4 Slim","la PlayStation 4 Slim est la version améliorée de la console","la PlayStation 4 Slim est la version améliorée de la console la plus populaire de la huitième génération. Elle conserve la même puissance et conserve son avantage devant la Xbox One et la Switch. Elle dispose d'un lecteur Blu-Ray et d'un disque dur intégré de 500 Go ou de 1 To.","SONY");
+("9998670514325","Manette PS4","DualShock est une gamme de manettes","DualShock est une gamme de manettes de jeu officielles des consoles de salon Playstation de Sony. Son nom fait référence à la présence de doubles moteurs solénoïdes, qui permettent de produire des vibrations dans le contrôleur.","SONY");
+("3391891979047","The Witcher 3 : Wild Hunt ","The Witcher 3 est un RPG en monde ouvert, dans un univers Fantasy hautement scénarisé où vos choix sont décisifs.","The Witcher 3 est un RPG en monde ouvert, dans un univers Fantasy hautement scénarisé où vos choix sont décisifs. Vous incarnez un tueur de monstres professionnel chargé de retrouver l'enfant de la prophétie dans un vaste monde riche en cités marchandes, cols périlleux et grottes oubliées. ","SONY");
+("5055856412434","Dishonored 2","Incarnez Corvo ou Emily, qui se battront une fois de plus pour la justice ","Incarnez Corvo ou Emily, qui se battront une fois de plus pour la justice et la vérité et aventurez-vous dans la ville côtière exotique de Karnaca. Maîtrisez des pouvoirs surnaturels pour vous déplacer sans être vu, détruire vos ennemis, ou mêler les deux approches. ","SONY");
+("0711719833758","Horizon : Zero Dawn","Dans cet univers post-apocalyptique vibrant et luxuriant, d'énormes créatures mécaniques parcourent les terres","Dans cet univers post-apocalyptique vibrant et luxuriant, d'énormes créatures mécaniques parcourent les terres qu'elles ont arrachées des mains de l'humanité. Vous incarnez Aloy, une chasseuse habile et curieuse qui ne compte que sur elle-même pour rester en vie et se protéger des machines. ","SONY");
+("0711711635758","The Last of Us : Remastered","The Last of Us Remastered regroupe le jeu de base","The Last of Us Remastered regroupe le jeu de base, le DLC Left Behind et les packs de maps multijoueur Territoires Abandonnés et Territoires Récupérés. ","SONY");
+("5055856415718","Dishonored : La Mort de l'Outsider","Dishonored : Death of the Outsider est un stand alone dans lequel nous incarnons Billie Lurk","Dishonored : Death of the Outsider est un stand alone dans lequel nous incarnons Billie Lurk, qui rejoint l'assassin Daud afin de mener le plus grand assassinat jamais imaginé : celui de l'Outsider. ","SONY");
+("0711719357773","God of War ","Dans ce nouvel opus exploitant mythologie nordique, Kratos a enfin l’opportunité de canaliser la rage qui l'a si longtemps habité.","Dans ce nouvel opus exploitant mythologie nordique, Kratos a enfin l’opportunité de canaliser la rage qui l'a si longtemps habité. Inquiet du sombre héritage qu'il a transmis à son fils, Kratos espère pouvoir réparer ses fautes et effacer les horreurs de son passé. ","SONY");
+("5026555358996","Red Dead Redemption II","Découvrez l'histoire d’Arthur Morgan et de la bande de Van der Linde","Découvrez l'histoire d’Arthur Morgan et de la bande de Van der Linde qui, lors de leur parcours à travers les vastes terres sauvages d’Amérique, n’auront d’autre choix que de piller et de se battre pour survivre.","SONY");
+
+
+
+
 INSERT INTO categories (categoryName) VALUES ("Jeu-Vidéo"),("Playstation 2"),("Console"),("Accessoire Console"),("Playstation"),("Playstation 4"),("Nintendo"),("Switch"),("Xbox360"),("Gamecube");
-=======
-
-
-
-INSERT INTO categories (categoryName) VALUES ("Jeu-Vidéo"),("Playstation 2"),("Console"),("Accessoire Console")
->>>>>>> 30deb06629678f63a4a0f4cc4a20bf24cafa05e1
 
 
 	
