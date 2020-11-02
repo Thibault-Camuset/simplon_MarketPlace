@@ -89,7 +89,7 @@ INSERT INTO products (productCode, productName, shortDescription, longDescriptio
 ("0711719706403","Console Playstation 2 Slim","","","Sony"),
 ("7194801354691","Action Replay Max","","","Datel"),
 
-INSERT INTO categories (categoryName) VALUES ("Jeu-Vidéo"),("Playstation 2"),("Console"),("Accessoire Console")
+INSERT INTO categories (categoryName) VALUES ("Jeu-Vidéo"),("Playstation 2"),("Console"),("Accessoire Console"),("Playstation"),("Playstation 4"),("Nintendo"),("Switch"),("Xbox360"),("Gamecube");
 
 
 	
