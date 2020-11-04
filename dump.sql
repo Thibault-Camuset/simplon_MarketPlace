@@ -38,6 +38,7 @@ CREATE TABLE products
     shortDescription TINYTEXT,
     longDescription TEXT,
     brandCode INT,
+	KEY brandCode,
     FOREIGN KEY(brandCode) REFERENCES brands(brandCode)
 );
 
@@ -79,10 +80,7 @@ INSERT INTO brands (brandCode, brandName) VALUES ("1","Nintendo"),("2","Microsof
 
 
 
-INSERT INTO products (products.productCode, products.productName, products.shortDescription, products.longDescription, products.brandCode)
-SELECT products.productCode, products.productName, products.shortDescription, products.longDescription, products.brandCode
-FROM products
-INNER JOIN brands ON products.brandCode = brands.brandCode
+INSERT INTO products (productCode, productName, shortDescription, longDescription, brandCode)
 VALUES ("4012927029534", "Suikoden V", "Dernier opus de la série légendaire, préquel au plus légendaire encore Suikoden II!", "Tragédie et destin sont intimement liés autour de la légendaire Rune Solaire!</br>Sur les terres de Faléna, dans un pays prospère placé sous le joug matriarcat et sous la bienveillante puissance de la Rune Solaire, des troubles civils commencèrent à éclater, forçant la reine à se servir de la Rune Solaire afin de maîtriser le soulèvement... Mais à quel prix? Plongez en tant que prince dans une quête immense et éclaircissez les mystères entourant la Rune Solaire, les troubles civils, et les sombres intentions d'une puissance inconnue, dans la grande saga de Suikoden!", "3"),
 ("5060073303946","Persona 3","L'opus le plus vendu de la saga sombre de Shin Megami Tensei!","De terribles créatures rôdent dans l'obscurité, s'attaquant à ceux qui osent s'aventurer dans l'heure sombre, une anomalie temporelle cachée entre deux jours. En tant que membre d'une confrérie étudiante secrète, vous devez manier votre force intérieure, Persona, et protéger l'humanité contre une fin imminente. Vivrez-vous assez longtemps pour voir un nouveau jour se lever?","3"),
 ("0711719473428","Dark Chronicle","Un des RPG les plus originaux et cultes de la console!","Dans un loingtain futur, un empereur cruel décide de remonter le temps pour éliminer tout ce qui pourrait s'opposer à son règne de terreur.</br>Dans le présent, un monde meurt. Une seule de ses villes a été épargnée. Mais dans cette ville, un jeune garçon découvre un secret qui va boulverser sa vie... et le cours de l'histoire...","3"),
