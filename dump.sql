@@ -70,9 +70,6 @@ CREATE TABLE products_vendors
 
 
 
-
-
-
 INSERT INTO brands (brandCode, brandName) VALUES ("1","Nintendo"),("2","Microsoft"),("3","Sony"),("4","Datel");
 
 
@@ -120,6 +117,38 @@ VALUES ("4012927029534", "Suikoden V", "Dernier opus de la série légendaire, p
 ("0711719357773","God of War ","Dans ce nouvel opus exploitant mythologie nordique, Kratos a enfin l’opportunité de canaliser la rage qui l'a si longtemps habité.","Dans ce nouvel opus exploitant mythologie nordique, Kratos a enfin l’opportunité de canaliser la rage qui l'a si longtemps habité. Inquiet du sombre héritage qu'il a transmis à son fils, Kratos espère pouvoir réparer ses fautes et effacer les horreurs de son passé. ","3"),
 ("5026555358996","Red Dead Redemption II","Découvrez l'histoire d’Arthur Morgan et de la bande de Van der Linde","Découvrez l'histoire d’Arthur Morgan et de la bande de Van der Linde qui, lors de leur parcours à travers les vastes terres sauvages d’Amérique, n’auront d’autre choix que de piller et de se battre pour survivre.","3");
 
-INSERT INTO categories (categoryName) VALUES ("Jeu-Vidéo"),("Playstation 2"),("Console"),("Accessoire Console"),("Playstation"),("Playstation 4"),("Nintendo"),("Switch"),("Xbox360"),("Gamecube");
+INSERT INTO categories (categoryName) VALUES ("Jeu-Vidéo"),("Playstation 2"),("Console"),("Accessoire Console"),("Playstation"),("Playstation 4"),("Wii"),("Switch"),("Xbox360"),("Gamecube"),("NintendoDS"), ("WiiU");
 
 INSERT INTO vendors (vendorName, vendorDescription) VALUES ("Dominique Lassaut","Dominique Lassaut s'engage à fournir à point fermé pour chaque client la qualité de service clientèle la plus profonde possible."),("Richard Dupond","Richard Dupond spécialiste de la vente en ligne depuis 2005. Tous les envois sont suivis. Emballage professionnel. Service client réactif."),("Philippe Leblanc","Vendeur professionnel depuis 2009, notre gamme s’étend sur le domaine des jeux vidéo, de la téléphonie et de la mobilité, la photographie, ainsi que tous les accessoires informatiques. Notre SAV gratuit et performant est une force en plus de nos prix. Nous vendons en France et à l'international."),("Simon Kuthapel","Vous mettrez la main sur le produit qui vous tente à prix réduit parmi les jeux présents dans notre boutique. Nous aimons réjouir nos consommateurs en leur permettant de faire d'importantes affaires. Vous trouverez certainement ce dont vous avez besoin grâce à nos nombreuses soldes et offres promotionnelles. Regroupez vos achats pour économiser sur les frais de port."); 
+
+INSERT INTO products_categories (productCode, categoryNumber) VALUES ("4012927029534", "1"),("4012927029534", "2"), ("5060073303946", "1"),("5060073303946", "2"), ("0711719473428", "1"), ("0711719473428", "2"), ("0711719116615", "1"), ("0711719116615", "2"), ("0711719468721", "1"), ("0711719468721", "2"), ("0710425395741", "1"), ("0710425395741", "9"),
+("1803390191678", "1"), (""1803390191678", "9"),
+("4309859793293", "1"), ("4309859793293", "9"),
+("1989455238880", "1"), ("1989455238880", "9"),
+("9000460549969", "1"), ("9000460549969", "9"),
+("8835461460376", "1"), ("8835461460376", "9"),
+("1826238223328", "1"), ("1826238223328", "9"),
+("5256198950692", "4"), ("5256198950692", "9"),
+("4991723863832", "3"), ("4991723863832", "9"),
+("7062498777153", "3"), ("7062498777153", "9"),
+("4694294223076", "4"), ("4694294223076", "9"),
+("4020628738655", "3"), ("4020628738655", "10"),
+("4021628738655", "3"), ("4021628738655", "7"),
+("4021628738355", "3"), ("4021628738355", "8"),
+("4021608738355", "3"), ("4021608738355", "12"),
+("4021608738351", "3"), ("4021608738351", "11"),
+("1234567890123", "1"), ("1234567890123", "10"),
+("4021608708359", "1"), ("4021608708359", "10"),
+("4250154420155", "4"), ("4250154420155", "2"),
+("0711719102304", "4"), ("0711719102304", "2"),
+("", "1"), ("", "9"),
+("", "1"), ("", "9"),
+("", "1"), ("", "9"),
+("", "1"), ("", "9"),
+("", "1"), ("", "9"),
+("", "1"), ("", "9"),
+("", "1"), ("", "9"),
+("", "1"), ("", "9"),
+("", "1"), ("", "9"),
+("", "1"), ("", "9"),
+("", "1"), ("", "9"),
