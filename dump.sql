@@ -122,7 +122,7 @@ INSERT INTO categories (categoryName) VALUES ("Jeu-Vidéo"),("Playstation 2"),("
 INSERT INTO vendors (vendorName, vendorDescription) VALUES ("Dominique Lassaut","Dominique Lassaut s'engage à fournir à point fermé pour chaque client la qualité de service clientèle la plus profonde possible."),("Richard Dupond","Richard Dupond spécialiste de la vente en ligne depuis 2005. Tous les envois sont suivis. Emballage professionnel. Service client réactif."),("Philippe Leblanc","Vendeur professionnel depuis 2009, notre gamme s’étend sur le domaine des jeux vidéo, de la téléphonie et de la mobilité, la photographie, ainsi que tous les accessoires informatiques. Notre SAV gratuit et performant est une force en plus de nos prix. Nous vendons en France et à l'international."),("Simon Kuthapel","Vous mettrez la main sur le produit qui vous tente à prix réduit parmi les jeux présents dans notre boutique. Nous aimons réjouir nos consommateurs en leur permettant de faire d'importantes affaires. Vous trouverez certainement ce dont vous avez besoin grâce à nos nombreuses soldes et offres promotionnelles. Regroupez vos achats pour économiser sur les frais de port."); 
 
 INSERT INTO products_categories (productCode, categoryNumber) VALUES ("4012927029534", "1"),("4012927029534", "2"), ("5060073303946", "1"),("5060073303946", "2"), ("0711719473428", "1"), ("0711719473428", "2"), ("0711719116615", "1"), ("0711719116615", "2"), ("0711719468721", "1"), ("0711719468721", "2"), ("0710425395741", "1"), ("0710425395741", "9"),
-("1803390191678", "1"), (""1803390191678", "9"),
+("1803390191678", "1"), ("1803390191678", "9"),
 ("4309859793293", "1"), ("4309859793293", "9"),
 ("1989455238880", "1"), ("1989455238880", "9"),
 ("9000460549969", "1"), ("9000460549969", "9"),
