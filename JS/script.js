@@ -44,8 +44,6 @@ $backbrands.click(function() {
     $backbrandsdisplay.removeClass("hidden");
 });
 
-<<<<<<< HEAD
-=======
 $buttonstoback.each(function() {
     let $actualbutton = $(this);
     console.log($actualbutton);
@@ -55,4 +53,3 @@ $buttonstoback.each(function() {
         $backofficediv.removeClass("hidden");
     })
 })
->>>>>>> 30deb06629678f63a4a0f4cc4a20bf24cafa05e1
