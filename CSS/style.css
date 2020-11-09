@@ -260,6 +260,20 @@
   margin: 1vmin 0 1vmin 0;
 }
 
+#product-add {
+  position: absolute;
+  top: 1.2vw;
+  left: 1vw;
+  height: 3vw;
+  width: 15vw;
+  border: 1px solid black;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  font-size: 2vmin;
+  cursor: pointer;
+}
+
 .hidden {
   display: none !important;
 }

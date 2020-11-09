@@ -3,6 +3,11 @@
 
 include('productsconnexion.inc.php');
 
+?>
+
+<a id="product-add" href="PHP/productsadd.php">Ajouter un nouveau Produit</a>
+
+<?php
 $request = $mysqli->query('SELECT * FROM products');
 
 while ($products = $request->fetch_object()) {

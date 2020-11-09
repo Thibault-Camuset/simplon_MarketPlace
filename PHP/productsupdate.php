@@ -18,7 +18,6 @@ $product = $request->fetch_object();
     <select name="brandName">
         <?php 
         $brandsrequest = $mysqli->query('SELECT * FROM brands');
-        var_dump($brandsrequest);
         while ($brands = $brandsrequest->fetch_object()) {
             if($brands->brandCode == $product->brandCode) {
             ?>

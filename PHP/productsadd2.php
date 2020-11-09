@@ -8,14 +8,17 @@ $shortDescription = $_POST["shortDescription"];
 $longDescription = $_POST["longDescription"];
 $brandName = $_POST["brandName"];
 
+
+
 $concat = "SELECT brandCode FROM brands WHERE brandName ='$brandName'";
 $request2 = $mysqli->query($concat);
 $result = $request2->fetch_object();
 $actualBrand = $result->brandCode;
 
-$mysqli->query("UPDATE products SET productCode = '$productCode', productName = '$productName', shortDescription = '$shortDescription', longDescription = '$longDescription', brandCode = $actualBrand WHERE productCode = '$productCode'");
+$mysqli->query("INSERT INTO products (productCode, productName, shortDescription, longDescription, brandCode) VALUES ('$productCode', '$productName', '$shortDescription', '$longDescription', $actualBrand)");
+
+// besoin d'updater la page d'accueil pour voir les modif/refresh liste produits?
 
 header('Location: ../index.php');
 exit();
-
 ?>
