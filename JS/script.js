@@ -52,4 +52,4 @@ $buttonstoback.each(function() {
         $actualdiv.addClass("hidden");
         $backofficediv.removeClass("hidden");
     })
-})
+});

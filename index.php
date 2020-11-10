@@ -71,6 +71,10 @@ include('PHP/productsdisplay.inc.php');
     </div>
     <div id="back-office-categories-display" class="hidden">
     <input type="button" class="switch-to-back" title="Back-Office" value="B"/>
+
+    <?php
+    include('PHP/indexcategory.php');
+?>
     </div>
     <div id="back-office-brands-display" class="hidden">
     <input type="button" class="switch-to-back" title="Back-Office" value="B"/>
