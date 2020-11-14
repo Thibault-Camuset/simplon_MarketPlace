@@ -1,4 +1,7 @@
-<?php
+
+<?php include ('config.inc.php');
+include ('connexion.inc.php');
+
 
 ?>
 
@@ -16,40 +19,30 @@
     <div id="page-container">
 
         <div id="formulaire">
-            <input type="text" id="search-input" placeholder="Rechercher un produit"/>
-            <input type="button" id="search-button" value="Envoyer"/>
+            <from id='search'>
+            <input  type="text" id="search-input" placeholder="Rechercher un produit"/>
+            <input type="button" id="search-button" />  
+</form>
+            <img src="CSS/market.png" alt="logo" class='img-market'>
             <select id="select-categories">
-                <option>Blabla</option>
-                <option>Blabla</option>
-                <option>Blabla</option>
-                <option>Blabla</option>
-            </select>
+            <option value=''>Selectionner une catégorie</option>";
+            <?php $result = $mysqli->query('SELECT* FROM categories');
+        $row =  $result->fetch_all();
+        for($i=0;$i<sizeof($row);$i++){ 
+          
+            echo "   <option value='{$row[$i][1]}'>{$row[$i][1]}</option>";
+           
+        }
+        ?>
+        </select>
+           
             <input type="button" id="switch-back-office" title="Back-Office" value="B"/>
         </div>
-
         <div id="products-page">
-            <div class="popo"></div>
-            <div class="popo"></div>
-            <div class="popo"></div>
-            <div class="popo"></div>
-            <div class="popo"></div>
-            <div class="popo"></div>
-            <div class="popo"></div>
-            <div class="popo"></div>
-            <div class="popo"></div>
-            <div class="popo"></div>
-            <div class="popo"></div>
-            <div class="popo"></div>
-            <div class="popo"></div>
-            <div class="popo"></div>
-            <div class="popo"></div>
-            <div class="popo"></div>
-            <div class="popo"></div>
-            <div class="popo"></div>
-        </div>
-        <div id="product-details-page" class="hidden"></div>
-    </div>
-
+        <?php include('boucle-inc.php');
+        ?>
+</div>
+</div>
     <div id="back-office-container" class="hidden">
     <input type="button" id="switch-front" title="Front-Office" value="F"/>
     <div id="back-office-products">Products</div>
@@ -68,6 +61,7 @@
     <input type="button" class="switch-to-back" title="Back-Office" value="B"/>
     </div>
     <div id="back-office-brands-display" class="hidden">
+    <?php include('test-brand.php');?>
     <input type="button" class="switch-to-back" title="Back-Office" value="B"/>
     </div>
 

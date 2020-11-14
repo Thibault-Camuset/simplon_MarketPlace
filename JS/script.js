@@ -44,8 +44,6 @@ $backbrands.click(function() {
     $backbrandsdisplay.removeClass("hidden");
 });
 
-<<<<<<< HEAD
-=======
 $buttonstoback.each(function() {
     let $actualbutton = $(this);
     console.log($actualbutton);
@@ -55,4 +53,57 @@ $buttonstoback.each(function() {
         $backofficediv.removeClass("hidden");
     })
 })
->>>>>>> 30deb06629678f63a4a0f4cc4a20bf24cafa05e1
+
+
+
+// <-------------------------------------- RECHERCHER UN PRODUIT --------------------------------------->
+let text = document.getElementById('search-input');
+text.addEventListener('keyup', searchProducts)
+
+
+function searchProducts() {
+    console.log(text.value);
+    var filter = text.value.toUpperCase() //on pourra mettre des majuscules ou caractères spéciaux il n'y aura pas de problème
+
+    var searchDisplay, i;
+    let productClass = document.querySelectorAll(".popo");
+
+    for (i = 0; i < productClass.length; i++) {
+        productfound = productClass[i];
+        searchDisplay = productfound.innerText;
+        if (searchDisplay.toUpperCase().indexOf(filter) > -1) {
+            productClass[i].style.display = "";
+
+        } else {
+            productClass[i].style.display = "none";
+
+        }
+    }
+};
+
+// <-------------------------------------- RECHERCHER UNE CATEGORIE --------------------------------------->
+
+let selectText = document.getElementById('select-categories');
+selectText.addEventListener('click', searchCategory);
+
+
+function searchCategory() {
+    console.log(selectText.value);
+    var filter = selectText.value.toUpperCase() //on pourra mettre des majuscules ou caractères spéciaux il n'y aura pas de problème
+
+    var searchDisplay, i;
+    let productClass = document.querySelectorAll(".popo");
+
+     for (i = 0; i < productClass.length; i++) {
+        productfound = productClass[i];
+        searchDisplay = productfound.innerText;
+        if (searchDisplay.toUpperCase().indexOf(filter) > -1) {
+            productClass[i].style.display = "";
+
+        } else {
+            productClass[i].style.display = "none";
+
+        }
+    }
+}
+;
