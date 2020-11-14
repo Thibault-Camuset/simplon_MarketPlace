@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  
 }
 body{
   background-color:#CE0033;
@@ -22,7 +21,6 @@ body{
 #back-office-container {
   height: 100vh;
   width: 100vw;
-  
 }
 
 #products-page {
@@ -280,7 +278,7 @@ opacity: 0%;
 }
 
 .switch-to-back {
-  position: fixed;
+  position: absolute;
   top: 1vw;
   right: 2vw;
   height: 3vw;
@@ -296,6 +294,64 @@ opacity: 0%;
   background-color: white;
   color: red;
   border: 2px solid red;
+}
+
+#back-office-products-display {
+  margin-top: 12vh;
+}
+
+.product-button-update {
+  display: block;
+  position: relative;
+  top: 0;
+  right: -94vw;
+  height: 2vw;
+  width: 2vw;
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  font-size: 3vmin;
+  text-decoration: none;
+  text-align: center;
+}
+
+.product-button-delete {
+  display: block;
+  position: relative;
+  bottom: 0;
+  right: -94vw;
+  height: 2vw;
+  width: 2vw;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  font-size: 3vmin;
+  text-decoration: none;
+  text-align: center;
+}
+
+.products-element {
+  border: 1px solid black;
+  padding: 1vmin;
+  margin: 2vmin;
+}
+
+.products-element p {
+  margin: 1vmin 0 1vmin 0;
+}
+
+#product-add {
+  position: absolute;
+  top: 1.2vw;
+  left: 1vw;
+  height: 3vw;
+  width: 15vw;
+  border: 1px solid black;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  font-size: 2vmin;
+  cursor: pointer;
 }
 
 .hidden {

@@ -53,12 +53,21 @@ include ('connexion.inc.php');
 
     <div id="back-office-products-display" class="hidden">
     <input type="button" class="switch-to-back" title="Back-Office" value="B"/>
+
+<?php
+include('PHP/productsdisplay.inc.php');
+?>
+
     </div>
     <div id="back-office-vendors-display" class="hidden">
     <input type="button" class="switch-to-back" title="Back-Office" value="B"/>
     </div>
     <div id="back-office-categories-display" class="hidden">
     <input type="button" class="switch-to-back" title="Back-Office" value="B"/>
+
+    <?php
+    include('PHP/indexcategory.php');
+?>
     </div>
     <div id="back-office-brands-display" class="hidden">
     <?php include('test-brand.php');?>

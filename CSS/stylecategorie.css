@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+h1{
+    text-align: center;
+    color: #ce0033;
+    text-shadow: #000000;
+    text-decoration: underline;
+}
+a{
+    border: solid 2px #000000;
+    background-color: #ce0033;
+    border-radius: 5px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-left: 1vw;
+    
+    width: 19vw;
+    height: 5vh;
+    bottom: 2%;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1.6vw;
+}
+a:hover{
+    border: solid 2px #ce0033;
+    background-color: #ffffff;
+    border-radius: 3px;
+    color: #ce0033;
+
+}
+.sectionphp{
+   background-color: #6b6b6b;
+}
+th {
+    border: solid 2px black;
+}
+#nomid {
+    border: solid 2px black;
+}
+
+.btn-primary{
+   margin-left: 5vh;    
+
+}
+
+table{
+    margin: 2vw;
+}

@@ -8,7 +8,7 @@ DROP TABLE IF EXISTS brands;
 
 CREATE TABLE brands
 (
-	brandCode INT PRIMARY KEY NOT NULL,
+	brandCode INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
 	brandName TEXT
 );
 
@@ -70,7 +70,7 @@ CREATE TABLE products_vendors
 
 
 
-INSERT INTO brands (brandCode, brandName) VALUES ("1","Nintendo"),("2","Microsoft"),("3","Sony"),("4","Datel");
+INSERT INTO brands (brandName) VALUES ("Nintendo"),("Microsoft"),("Sony"),("Datel");
 
 
 
