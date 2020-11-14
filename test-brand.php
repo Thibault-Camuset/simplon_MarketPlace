@@ -1,6 +1,5 @@
 <?php include ('config.inc.php');
 include ('connexion.inc.php');
-var_dump($dbUser);
 
 
 ?>

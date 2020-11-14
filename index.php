@@ -13,6 +13,7 @@ include ('connexion.inc.php');
     <title>Document</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="CSS/style.css">
+    <script type="text/Javascript" src="JS/script.js" defer></script>
 </head>
 <body>
 
@@ -29,13 +30,11 @@ include ('connexion.inc.php');
             <?php $result = $mysqli->query('SELECT* FROM categories');
         $row =  $result->fetch_all();
         for($i=0;$i<sizeof($row);$i++){ 
-          
+
             echo "   <option value='{$row[$i][1]}'>{$row[$i][1]}</option>";
-           
         }
         ?>
         </select>
-           
             <input type="button" id="switch-back-office" title="Back-Office" value="B"/>
         </div>
         <div id="products-page">
@@ -75,6 +74,7 @@ include('PHP/productsdisplay.inc.php');
     </div>
 
 
-    <script type="Text/Javascript" src="JS/script.js"></script>
+
+
 </body>
 </html>
