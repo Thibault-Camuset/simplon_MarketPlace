@@ -1,8 +1,8 @@
 <?php 
 
 
-include ('config.inc.php');
-include ('connexion.inc.php');
+include ('PHP/config.inc.php');
+include ('PHP/connexion.inc.php');
 
 $result = $mysqli->query('SELECT* FROM products');
         

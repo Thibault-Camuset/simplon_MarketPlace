@@ -1,8 +1,6 @@
 
-<?php include ('config.inc.php');
-include ('connexion.inc.php');
-
-
+<?php include ('PHP/config.inc.php');
+include ('PHP/connexion.inc.php');
 ?>
 
 <!DOCTYPE html>
@@ -35,44 +33,13 @@ include ('connexion.inc.php');
         }
         ?>
         </select>
-            <input type="button" id="switch-back-office" title="Back-Office" value="B"/>
+            <a href="back-office.php" id="switch-back-office" title="Back-Office"   >B</a>
         </div>
         <div id="products-page">
-        <?php include('boucle-inc.php');
+        <?php include('PHP/boucle-brand.inc.php');
         ?>
 </div>
 </div>
-    <div id="back-office-container" class="hidden">
-    <input type="button" id="switch-front" title="Front-Office" value="F"/>
-    <div id="back-office-products">Products</div>
-    <div id="back-office-vendors">Vendors</div>
-    <div id="back-office-categories">Categories</div>
-    <div id="back-office-brands">Brands</div>
-    </div>
-
-    <div id="back-office-products-display" class="hidden">
-    <input type="button" class="switch-to-back" title="Back-Office" value="B"/>
-
-<?php
-include('PHP/productsdisplay.inc.php');
-?>
-
-    </div>
-    <div id="back-office-vendors-display" class="hidden">
-    <input type="button" class="switch-to-back" title="Back-Office" value="B"/>
-    </div>
-    <div id="back-office-categories-display" class="hidden">
-    <input type="button" class="switch-to-back" title="Back-Office" value="B"/>
-
-    <?php
-    include('PHP/indexcategory.php');
-?>
-    </div>
-    <div id="back-office-brands-display" class="hidden">
-    <?php include('test-brand.php');?>
-    <input type="button" class="switch-to-back" title="Back-Office" value="B"/>
-    </div>
-
 
 
 
