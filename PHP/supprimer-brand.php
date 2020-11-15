@@ -9,7 +9,7 @@ else {
 }
 
 $idDelete = intval($_POST['id']);
-$result = $mysqli->query("DELETE FROM categories WHERE categoryNumber = $idDelete");
+$result = $mysqli->query("DELETE FROM brands WHERE brandCode = $idDelete");
  echo $idDelete;
  echo 'marque supprimée';
 

@@ -1,18 +1,18 @@
 <?php include ('config.inc.php');
 include ('connexion.inc.php');
-var_dump($dbUser);
 
 
 ?>
 <html>
 <head>
-    <link rel="stylesheet" href="bra.css">
+    <link rel="stylesheet" href="../CSS/style.css">
     <title>BR| Connexion a une base de données </title>
 </head>
 <body>
 
 
  <h2> <?php echo 'Marques' ?> </h2> 
+ <a href="../back-office.php" class="switch-to-back" title="Back-Office">B</a>
 
 <a href='create-brand.php'> <h3> + Ajouter une nouvelle marque </h3></a>
 <?php $result = $mysqli->query('SELECT* FROM brands');

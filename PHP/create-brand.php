@@ -28,7 +28,7 @@ else {
 <?php 
 $nameUpdate = $_POST['newname'];
 if(!empty($nameUpdate)){
-$result = $mysqli->query("INSERT INTO categories (`categoryName`) VALUES ('$nameUpdate')");
+$result = $mysqli->query("INSERT INTO brands (`brandName`) VALUES ('$nameUpdate')");
 if ($result == TRUE) :
 echo $nameUpdate. "  a été créé";
 

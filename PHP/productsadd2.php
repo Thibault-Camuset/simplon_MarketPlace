@@ -7,6 +7,7 @@ $productName = $_POST["productName"];
 $shortDescription = $_POST["shortDescription"];
 $longDescription = $_POST["longDescription"];
 $brandName = $_POST["brandName"];
+$productUrl = $_POST["productUrl"];
 
 
 
@@ -15,7 +16,7 @@ $request2 = $mysqli->query($concat);
 $result = $request2->fetch_object();
 $actualBrand = $result->brandCode;
 
-$mysqli->query("INSERT INTO products (productCode, productName, shortDescription, longDescription, brandCode) VALUES ('$productCode', '$productName', '$shortDescription', '$longDescription', $actualBrand)");
+$mysqli->query("INSERT INTO products (productCode, productName, shortDescription, longDescription, brandCode, productUrl) VALUES ('$productCode', '$productName', '$shortDescription', '$longDescription', '$actualBrand', '$productUrl')");
 
 // besoin d'updater la page d'accueil pour voir les modif/refresh liste produits?
 

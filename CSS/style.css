@@ -35,10 +35,11 @@ padding: 0 6%;
   height: 88vh;
   top: 12vh;
 background-image: url(background-simplon-pattern.svg);
-background-color: #FEFEFE;
+background-color: #f9f9f9 ;
 
   overflow: scroll;
   overflow-x: hidden;
+
 }
 
 #switch-back-office {
@@ -92,7 +93,7 @@ height: 58px;
   width: 19vw;
   font-family: 'Roboto', sans-serif;
   color: #333;
-  font-size: 1.3rem;
+  font-size: 1.3vw;
   padding: 0 1.3rem;
   border-radius: 0.2rem;
   background-color: rgb(255, 255, 255);
@@ -168,6 +169,18 @@ height: 58px;
   box-shadow: 0 14px 28px silver, 0 10px 10px silver;
   background-color: white;
   text-align: center;
+  cursor: pointer;
+}
+
+.product-img{
+  height: 28vh;
+  width: 20vh;
+  margin: 2vh auto;
+}
+.hr-product{
+  box-shadow: 0 3px 4px silver, 0 3px 3px silver;
+  color: #dedede;
+  opacity: 50%;
 }
 
 .price{
@@ -177,7 +190,7 @@ height: 58px;
   background-color: #CE0033;
   padding:7px;
   border-radius: 8%;
-  margin: auto;
+  margin: 10px auto ;
 }
 .opacity{
 opacity: 0%;
@@ -188,7 +201,7 @@ opacity: 0%;
   flex-direction: column;
   justify-content: space-around;
 
-  margin-top: 30vh;
+  
 
   width: 40vh;
   height: 12vh;
@@ -353,7 +366,45 @@ opacity: 0%;
   font-size: 2vmin;
   cursor: pointer;
 }
-
+.apparition {
+    
+  animation: fadein 1s;
+  -moz-animation: fadein 1s; /* Firefox */
+  -webkit-animation: fadein 1s; /* Safari et Chrome */
+  -o-animation: fadein 1s; /* Opera */
+}
+@keyframes fadein {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-moz-keyframes fadein { /* sur Firefox */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-webkit-keyframes fadein { /* sur Safari et Chrome */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-o-keyframes fadein { /* sur Opera */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity: 1;
+  }
+}
 .hidden {
   display: none !important;
 }

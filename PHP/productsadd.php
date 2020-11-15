@@ -11,6 +11,7 @@ include('productsconnexion.inc.php');
 <textarea name="shortDescription" placeholder="Courte Description du Produit"></textarea>
 <textarea name="longDescription" placeholder="Longue Description du Produit"></textarea>
 
+
 <select name="brandName">
         <?php 
         $brandsrequest = $mysqli->query('SELECT * FROM brands');
@@ -19,6 +20,6 @@ include('productsconnexion.inc.php');
                 <option selected><?php echo $brands->brandName ?></option>
             <?php } ?>         
 </select>
-
+<textarea name="productUrl" placeholder="URL de l'image du Produit"></textarea>
 <input id="submit-add" type="submit" value="Ajouter le produit"/>
 </form>
