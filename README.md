@@ -52,3 +52,5 @@ Spécificitées de la BDD:
 - Partie 5 : Front-End (Lister les produits sur le site, afficher les détails quand l'utilisateur clique dessus).
 
 ---
+
+"Putin, j'ai envie de bouffer des pates aux crevettes!" Atilla Kahraman.
