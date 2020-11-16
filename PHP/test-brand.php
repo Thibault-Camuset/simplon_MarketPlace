@@ -5,7 +5,7 @@ include ('../PHP/connexion.inc.php');
 ?>
 <html>
 <head>
-    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/brand.css">
     <title>BR| Connexion a une base de données </title>
 </head>
 <body>

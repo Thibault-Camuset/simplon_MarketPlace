@@ -36,7 +36,7 @@ $result = $mysqli->query('SELECT* FROM products');
              <input type='hidden' name='id' value='<?php echo $row[$i][0];?>'>
              <input type='hidden' name='price' value='<?php if (!empty($price)){echo $price[0][0].' €';} else { echo ('En rupture de stock');
              } ?>'>
-             <input  class='submitBtn' type='submit' value='Voir le produit'></input>
+             <input  class='submitBtn' target='_blank'type='submit' value='Voir le produit'></input>
             </form>
              <p class='opacity'> <?php 
              if (!empty($tagname)){
