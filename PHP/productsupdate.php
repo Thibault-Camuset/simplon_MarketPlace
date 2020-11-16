@@ -31,7 +31,7 @@ $product = $request->fetch_object();
             };
             ?>         
     </select>
-    <textarea name="productUrl" placeholder="URL de l'image du Produit"></textarea>
+    <textarea name="productUrl" placeholder="URL de l'image du Produit"><?php echo $product->productUrl; ?></textarea>
     <input id="submit-update" type="submit" value="Modifier"/>
 
 </form>

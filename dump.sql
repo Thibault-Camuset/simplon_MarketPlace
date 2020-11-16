@@ -38,18 +38,18 @@ CREATE TABLE products
     shortDescription TINYTEXT,
     longDescription TEXT,
     brandCode INT,
-    FOREIGN KEY(brandCode) REFERENCES brands(brandCode),
+    FOREIGN KEY(brandCode) REFERENCES brands(brandCode) ON DELETE CASCADE ON UPDATE CASCADE,
     productUrl TEXT
 );
 
-DROP TABLE IF EXISTS products_categories;
+DROP TABLE IF EXISTS products_categories; 
 
 CREATE TABLE products_categories
 (
 	productCode VARCHAR(13),
-    FOREIGN KEY(productCode) REFERENCES products(productCode),
+    FOREIGN KEY(productCode) REFERENCES products(productCode) ON DELETE CASCADE ON UPDATE CASCADE,
     categoryNumber INT,
-    FOREIGN KEY(categoryNumber) REFERENCES categories(categoryNumber),
+    FOREIGN KEY(categoryNumber) REFERENCES categories(categoryNumber) ON DELETE CASCADE ON UPDATE CASCADE,
     CONSTRAINT categoriesConstraint PRIMARY KEY(productCode, categoryNumber)
 );
 
@@ -58,9 +58,9 @@ DROP TABLE IF EXISTS products_vendors;
 CREATE TABLE products_vendors
 (
 	productCode VARCHAR(13),
-    FOREIGN KEY(productCode) REFERENCES products(productCode),
+    FOREIGN KEY(productCode) REFERENCES products(productCode) ON DELETE CASCADE ON UPDATE CASCADE,
     vendorCode INT,
-    FOREIGN KEY(vendorCode) REFERENCES vendors(vendorCode),
+    FOREIGN KEY(vendorCode) REFERENCES vendors(vendorCode) ON DELETE CASCADE ON UPDATE CASCADE,
     priceHT DECIMAL(10,2),
     shippingHT DECIMAL(10,2),
     stock INT,
