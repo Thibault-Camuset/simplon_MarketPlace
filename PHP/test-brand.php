@@ -1,5 +1,5 @@
-<?php include ('config.inc.php');
-include ('connexion.inc.php');
+<?php include ('../PHP/config.inc.php');
+include ('../PHP/connexion.inc.php');
 
 
 ?>

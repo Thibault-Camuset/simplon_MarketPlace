@@ -1,8 +1,8 @@
-<?php 
+<?php include ('config.inc.php');
+include ('connexion.inc.php');
 
-include('productsconnexion.inc.php');
 
-?>
+?>>
 
 <form id="add-request" method="POST" action="productsadd2.php">
 

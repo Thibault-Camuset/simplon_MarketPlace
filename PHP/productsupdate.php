@@ -1,6 +1,9 @@
-<?php
+<?php 
 
-include('productsconnexion.inc.php');
+
+include ('config.inc.php');
+include ('connexion.inc.php');
+
 
 $pCode = $_GET["productCode"];
 $request = $mysqli->query("SELECT * FROM products WHERE productCode = '$pCode'");

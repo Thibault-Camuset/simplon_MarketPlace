@@ -1,6 +1,8 @@
-<?php
+<?php 
 
-include('productsconnexion.inc.php');
+include ('config.inc.php');
+include ('connexion.inc.php');
+
 
 $productCode = $_POST["productCode"];
 $productName = $_POST["productName"];
@@ -16,7 +18,7 @@ $actualBrand = $result->brandCode;
 
 $mysqli->query("UPDATE products SET productCode = '$productCode', productName = '$productName', shortDescription = '$shortDescription', longDescription = '$longDescription', brandCode = $actualBrand , productUrl = $productUrl WHERE productCode = '$productCode'");
 
-header('Location: ../index.php');
+header('Location: ../products-back.php');
 exit();
 
 ?>

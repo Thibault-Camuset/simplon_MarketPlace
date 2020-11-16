@@ -1,10 +1,8 @@
+<?php include ('config.inc.php');
+include ('connexion.inc.php');
 
-<?php
-
-include('productsconnexion.inc.php');
 
 ?>
-
 <a id="product-add" href="PHP/productsadd.php">Ajouter un nouveau Produit</a>
 
 <?php

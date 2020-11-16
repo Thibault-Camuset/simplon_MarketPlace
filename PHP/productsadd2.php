@@ -1,6 +1,9 @@
-<?php
+<?php 
 
-include('productsconnexion.inc.php');
+include ('config.inc.php');
+include ('connexion.inc.php');
+
+
 
 $productCode = $_POST["productCode"];
 $productName = $_POST["productName"];
@@ -20,6 +23,6 @@ $mysqli->query("INSERT INTO products (productCode, productName, shortDescription
 
 // besoin d'updater la page d'accueil pour voir les modif/refresh liste produits?
 
-header('Location: ../index.php');
+header('Location: ../products-back.php');
 exit();
 ?>
