@@ -34,6 +34,7 @@ a:hover{
 }
 .sectionphp{
    background-color: #6b6b6b;
+   text-align: center;
 }
 th {
     border: solid 2px black;
@@ -44,9 +45,18 @@ th {
 
 .btn-primary{
    margin-left: 5vh;    
+   margin-bottom: 5vh;
 
 }
 
 table{
-    margin: 2vw;
+    display: block;
+    margin: 7.5vw;
+    align-content: center;
+    margin-left: 30vw;
+    
+}
+
+.csd{
+    text-align: center;
 }

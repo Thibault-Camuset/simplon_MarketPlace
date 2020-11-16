@@ -1,7 +1,7 @@
 <?php
 
 $dbUser = 'root';
-$dbPass = '';
+$dbPass = 'saithamsama';
 $dbDatabase = 'marketplace';
 $dbHost = 'localhost';
 ?>
