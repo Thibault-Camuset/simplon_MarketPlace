@@ -223,38 +223,58 @@ opacity: 0%;
 
 
 /* --------------------------------Page Produit détail------------------------------------> */
-.product-detail{
-  height: 60vh;
+#product-detail{
+  height: 70vh;
   width: 60vw;
   background-color: #fefefe;
   position:absolute;
-  top: 20vh;
-  margin: 0 20vw;
+  top: 12vh;
+  margin: 0 17vw;
   border-radius: 5%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+ 
   flex-wrap: nowrap;
   border: 1px solid silver;
   box-shadow: 0 14px 28px silver, 0 10px 10px silver;
   padding: 40px;
  
 }
+.main-product{
+  height: 55vh;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+.retourBtn{
+  padding:10px;
+  background-color: #CE0033;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+  color: white;
+  border:none;
+  cursor: pointer;
+  margin: 2%;
+  border-radius: 3%;
+
+}
+
 .product-detail-container{
   text-align: center;
   background-image: url(background-simplon-pattern.svg);
   background-color: #f9f9f9 ;
   width:100vw;
   height:100vh;
-  margin-top: 14vh;
+ 
   overflow: hidden;
   
 }
 
-.product-detail img{
+#product-detail img{
  padding:5%;
- width:20vw;
- height:45vh;
+ width:18vw;
+ height:40vh;
 }
 .product-head{
   width:80%;
@@ -268,8 +288,57 @@ opacity: 0%;
   overflow: scroll;
   height: 25vh;
 }
+#vendor-container img{
+  height: 30px;
+  width: 30px;
+  padding: 0;
+  margin: 0 auto;
+}
+#vendor-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: hotpink;
+  display: inline;
+  height: 20vh;
+  width: 10vw;
+  border: solid 2px silver;
+font-size: 13px;
+ 
+  
+}
+.column{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  
+
+  
+}
+.price-vendor{
+ 
+  font-weight: 700;
+}
+.vendor{
+border-radius: 6%;
+margin:-30px 50px;
+ background-color: #dedede;
+ box-shadow: 0 7px 14px silver, 0 10px 10px silver; ;
+ transition-duration: 0.7s;
 
 
+}
+.vendor:hover{
+  background-color: #CE0033;
+  color: #dedede;
+
+}
+
+
+.tiny-text{
+  font-size: 9px;
+}
 
 /* <------------------------------------------ Parti Back Office ------------------------------6> */
 

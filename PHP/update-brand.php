@@ -20,7 +20,7 @@ echo $nameUpdate;
 
 <html> 
 <header>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="CSS/brand.css">
 </header>
 <body> 
 <form method='POST' action='update-brand.php'>
