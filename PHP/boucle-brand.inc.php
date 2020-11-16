@@ -31,7 +31,7 @@ $result = $mysqli->query('SELECT* FROM products');
              <hr class='hr-product'>
              <p class='price'><?php if (!empty($price)){echo $price[0][0].' €';} else { echo ('En rupture de stock');
              } ?></p>
-             <p class='pro'><?php echo $row[$i][1]; ?></p>
+             <p class='product-name'><?php echo $row[$i][1]; ?></p>
              <form method='POST' action='detail-product.php' class='form' id='<?php echo $row[$i][0];?>'>
              <input type='hidden' name='id' value='<?php echo $row[$i][0];?>'>
              <input type='hidden' name='price' value='<?php if (!empty($price)){echo $price[0][0].' €';} else { echo ('En rupture de stock');

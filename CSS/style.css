@@ -160,7 +160,7 @@ height: 58px;
 
 
 .popo {
-  height: 50vh;
+  height: 48vh;
   width: 40vh;
   display: flex;
   flex-direction: column;
@@ -173,6 +173,13 @@ height: 58px;
   text-align: center;
   cursor: pointer;
 
+}
+.submitBtn{
+  opacity:0;
+  position: absolute;
+}
+.product-name{
+  margin-top:8px;
 }
 
 .product-img{
