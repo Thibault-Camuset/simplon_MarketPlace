@@ -8,6 +8,8 @@ body{
   color: #333;
 }
 
+/* <---------------------------------------- Page Home --------------------------------------> */
+
 #formulaire {
   display: flex;
   flex-direction: row;
@@ -158,7 +160,7 @@ height: 58px;
 
 
 .popo {
-  height: 45vh;
+  height: 50vh;
   width: 40vh;
   display: flex;
   flex-direction: column;
@@ -170,6 +172,7 @@ height: 58px;
   background-color: white;
   text-align: center;
   cursor: pointer;
+
 }
 
 .product-img{
@@ -191,7 +194,10 @@ height: 58px;
   padding:7px;
   border-radius: 8%;
   margin: 10px auto ;
+  display: inline-block;
 }
+
+
 .opacity{
 opacity: 0%;
 }
@@ -207,6 +213,58 @@ opacity: 0%;
   height: 12vh;
  
 }
+
+
+/* --------------------------------Page Produit détail------------------------------------> */
+.product-detail{
+  height: 60vh;
+  width: 60vw;
+  background-color: #fefefe;
+  position:absolute;
+  top: 20vh;
+  margin: 0 20vw;
+  border-radius: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  border: 1px solid silver;
+  box-shadow: 0 14px 28px silver, 0 10px 10px silver;
+  padding: 40px;
+ 
+}
+.product-detail-container{
+  text-align: center;
+  background-image: url(background-simplon-pattern.svg);
+  background-color: #f9f9f9 ;
+  width:100vw;
+  height:100vh;
+  margin-top: 14vh;
+  overflow: hidden;
+  
+}
+
+.product-detail img{
+ padding:5%;
+ width:20vw;
+ height:45vh;
+}
+.product-head{
+  width:80%;
+  
+  text-align: center;
+  margin: 7%;
+}
+.product-head p{
+  text-align: justify;
+  margin-top: 30px;
+  overflow: scroll;
+  height: 20vh;
+}
+
+
+
+/* <------------------------------------------ Parti Back Office ------------------------------6> */
 
 #back-office-container {
   display: flex;
@@ -366,12 +424,17 @@ opacity: 0%;
   font-size: 2vmin;
   cursor: pointer;
 }
+
+
+
+
+
 .apparition {
     
-  animation: fadein 1s;
-  -moz-animation: fadein 1s; /* Firefox */
-  -webkit-animation: fadein 1s; /* Safari et Chrome */
-  -o-animation: fadein 1s; /* Opera */
+  animation: fadein 1.4s;
+  -moz-animation: fadein 1.4s; /* Firefox */
+  -webkit-animation: fadein 1.4s; /* Safari et Chrome */
+  -o-animation: fadein 1.4s; /* Opera */
 }
 @keyframes fadein {
   from {

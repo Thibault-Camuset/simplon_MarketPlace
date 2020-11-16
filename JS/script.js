@@ -106,3 +106,31 @@ function searchCategory() {
         }
     }
 };
+
+
+
+
+// <----------------------------Cliquer sur case pour détail produit------------------------>
+
+
+
+var prodcutBox = document.getElementsByClassName('popo');
+var submitBtn = document.getElementsByClassName('submitBtn');
+var form = document.getElementsByClassName('form');
+
+console.log(prodcutBox);
+
+console.log(form);
+
+for (x=0; x<prodcutBox.length; x++){
+Opendetail(x);
+}
+
+function Opendetail(x){
+    prodcutBox[x].addEventListener('click', ()=>{
+           
+        console.log('x');
+    submitBtn[x].click();
+    });
+}
+    // Element.setAttribute(name, value);
