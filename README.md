@@ -20,6 +20,14 @@
 
 - Gestion de projet: https://trello.com/b/eaFXx17E/projet-simplon-marketplace
 
+---
+
+### Consignes d'utilisation:
+
+- Importer le dump dans PHPmyadmin pour créer la base de données (bien penser a désactiver la vérification des clé étrangères)
+- Si besoin est, changer le nom d'utilisateur/mot de passe dans le fichier config.inc.php pour pouvoir se connecter à la base de données.
+- Déposer tous les fichiers du répository dans un dossier, et l'ouvrir avec le localhost de votre navigateur.
+- Enjoy!
 
 ---
 
