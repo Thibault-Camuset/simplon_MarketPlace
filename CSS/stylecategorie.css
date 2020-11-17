@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     
+    
 }
 h1{
     text-align: center;
@@ -33,8 +34,10 @@ a:hover{
 
 }
 .sectionphp{
-   background-color: #6b6b6b;
-   text-align: center;
+  
+   background-color: #F8F8F8;
+   background-image: url(background-simplon-pattern.svg);
+  
 }
 th {
     border: solid 2px black;
@@ -44,19 +47,21 @@ th {
 }
 
 .btn-primary{
-   margin-left: 5vh;    
-   margin-bottom: 5vh;
+   margin-left: 69vh;  
+
 
 }
 
 table{
+    margin: 2vw;
     display: block;
-    margin: 7.5vw;
-    align-content: center;
-    margin-left: 30vw;
+    margin: 9.5vw;
+    text-align: center;
+    margin-left: 20vw;
+    border: solid 1px black;
     
+
 }
 
-.csd{
-    text-align: center;
-}
+
+

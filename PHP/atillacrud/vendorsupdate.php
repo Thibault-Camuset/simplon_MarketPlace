@@ -11,8 +11,8 @@ $product = $request->fetch_object();
 <form id="updating-form" method="POST" action="vendorsupdate2.php">
 
     <input name="vendorCode" type="text" value="<?php echo $product->vendorCode; ?>"/>
-    <input name="productName" type="text" value="<?php echo $product->vendorName; ?>"/>
-    <textarea name="description" type="text"><?php echo $product->vendorDescription; ?></textarea>
+    <input name="vendorName" type="text" value="<?php echo $product->vendorName; ?>"/>
+    <textarea name="vendorDescription" type="text"><?php echo $product->vendorDescription; ?></textarea>
     
     <input id="submitting-update" type="submit" value="Modifier"/>
 

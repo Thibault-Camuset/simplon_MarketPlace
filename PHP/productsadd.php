@@ -5,7 +5,6 @@ include ('connexion.inc.php');
 
 ?>
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -17,9 +16,6 @@ include ('connexion.inc.php');
 </head>
 <body>
 
-<form id="add-request" method="POST" action="productsadd2.php">
-
-<div id="product-form-1">
 <input id="product-code-input" name="productCode" type="text" placeholder="Code du produit"/>
 <input id="product-name-input" name="productName" type="text" placeholder="Nom du Produit"/>
 </div>
