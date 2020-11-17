@@ -28,13 +28,14 @@ $product = $request->fetch_object();
 <form id="update-form" method="POST" action="productsupdate2.php">
 
 <div id="product-form-1">
-    <input id="product-code-input" name="productCode" type="text" value="<?php echo $product->productCode; ?>"/>
-    <input id="product-name-input" name="productName" type="text" value="<?php echo $product->productName; ?>"/>
+    <label for="productCode">Code Produit<input id="product-code-input" name="productCode" type="text" value="<?php echo $product->productCode; ?>"/></label>
+    <label for="productName">Nom du Produit<input id="product-name-input" name="productName" type="text" value="<?php echo $product->productName; ?>"/></label>
 </div>
 <div id="product-form-2">
     <textarea id="product-short-input"name="shortDescription" type="text"><?php echo $product->shortDescription; ?></textarea>
     <textarea id="product-long-input" name="longDescription" type="text"><?php echo $product->longDescription; ?></textarea>
 </div>  
+    <p>Marque</p>
     <select id="product-brand-input" name="brandName">
         <?php 
         $brandsrequest = $mysqli->query('SELECT * FROM brands');
@@ -48,6 +49,7 @@ $product = $request->fetch_object();
             };
             ?>         
     </select>
+    <p>Url de l'image</p>
     <input id="product-url-input" name="productUrl" type="text" placeholder="URL de l'image du Produit" value="<?php echo $product->productUrl; ?>"/>
     <input id="submit-update" type="submit" value="Modifier"/>
 
