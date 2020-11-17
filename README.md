@@ -15,7 +15,7 @@
 
 
 - Wireframe: https://www.figma.com/file/I1TtHSprO5vazVw9oPpDLb/MarketPlace?node-id=0%3A1
-- Maquette: (A venir)
+- Maquette: https://www.figma.com/file/I1TtHSprO5vazVw9oPpDLb/MarketPlace?node-id=79%3A2
 
 
 - Gestion de projet: https://trello.com/b/eaFXx17E/projet-simplon-marketplace
