@@ -18,7 +18,7 @@ if($_POST){
       
    
 
-        header('Location: indexcategory.php');
+        header('Location: ../categories-back.php');
     }else{
         $_SESSION['erreur'] = "Le formulaire est incomplet";
     }
@@ -54,12 +54,12 @@ if(isset($_GET['id']) && !empty($_GET['id'])){
 //Vérifier si la catégorie existe
 if(!$categories){
     $_SESSION['erreur']="cet id n'existe pas";
-    header('location: indexcategory.php');
+    header('Location: ../categories-back.php');
 }
 
 }else{
     $_SESSION['erreur'] = "URL Invalide";
-    header('Location: indexcategory.php');
+    header('Location: ../categories-back.php');
     // var_dump($categories);
     
 }

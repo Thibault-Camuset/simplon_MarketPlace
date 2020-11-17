@@ -23,7 +23,7 @@ if($_POST){
         $_SESSION['message'] = "Nouvelle catégorie Ajouté";
         require_once('closecategory.php');
 
-        header('Location: indexcategory.php');
+        header('Location: ../categories-back.php');
     }else{
         $_SESSION['erreur'] = "Le formulaire est incomplet";
     }

@@ -30,7 +30,7 @@ if(isset($_GET['id']) && !empty($_GET['id'])){
 //Vérifier si la catégorie existe
 if(!$categories){
     $_SESSION['erreur']="cet id n'existe pas";
-    header('location: indexcategory.php');
+    header('location: ../categories-back.php');
     die();
 }
 
@@ -46,10 +46,10 @@ $query->bindValue(':id',$id,PDO::PARAM_INT);
 // On exécute la requête
 $query->execute();
 $_SESSION['message'] = "catégorie supprimée";
-header('Location: indexcategory.php');
+header('location: ../categories-back.php');
 
 }else{
     $_SESSION['erreur'] = "URL Invalide";
-    header('Location: indexcategory.php');    
+    header('location: ../categories-back.php');   
 }
 ?>
