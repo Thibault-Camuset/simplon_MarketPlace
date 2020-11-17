@@ -10,13 +10,14 @@ include ('PHP/connexion.inc.php');
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/products-back.css">
     <script type="text/Javascript" src="JS/script.js" defer></script>
 </head>
 <body>
 
 <div id="back-office-products-display">
     <a href="back-office.php" class="switch-to-back" title="Back-Office">B</a>
+
 <?php
 include('PHP/productsdisplay.inc.php');
 ?>
