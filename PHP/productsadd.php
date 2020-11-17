@@ -2,7 +2,7 @@
 include ('connexion.inc.php');
 
 
-?>>
+?>
 
 <form id="add-request" method="POST" action="productsadd2.php">
 
